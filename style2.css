@@ -1,0 +1,44 @@
+header{
+	background-image: url(BlockchainUNNlogo.png);
+}
+
+body{
+	font-family: Verdana, sans-serif;
+	font-size: 150%;
+	margin: 0 10%;
+	background-color: 
+	text-align: justify;
+	background: linear-gradient(right);
+}
+
+h1, h2, h3{
+	font-family: Georgia, serif;
+}
+
+h1{
+	font-size: 2em;
+	padding-top: 2%;
+	text-align: center;
+	letter-spacing: .3em;
+	font-weight: bold;
+	color: green;
+	text-shadow: .1em .1em .1em white;
+}
+
+h1{
+	font-size: 1.5em;
+	padding-top: 2%;
+	text-align: center;
+	letter-spacing: .3em;
+	font-weight: bold;
+}
+
+nav a {
+	padding-right: 2.5%;
+}
+h2,h3{
+	font-size: 1em;
+}
+h4{
+	margin-top: 10%;
+}

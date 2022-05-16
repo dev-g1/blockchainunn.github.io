@@ -1,0 +1,88 @@
+header{
+	background-image: url(logo2.png);
+	background-repeat: no-repeat;
+	background-size: 400px;
+	border-bottom: solid green;
+	padding-bottom: 3em;
+	margin-top: -1em;
+}
+
+#nav{
+	text-align: right;
+	margin-right: 2;	
+}
+
+a{
+	padding: 0 10;
+}
+body{
+	font-style:Georgia;
+	line-height: 1.2em;
+	font-size: 1.5em;
+	text-align: justify;
+	padding: 2em;
+}
+
+#div0{
+	border: solid;
+	border-style: ridge;
+	border-color: white;
+	padding-bottom: 15em;
+	margin-top: .5em;
+	background-image: url(BUNN.jpg);
+	background-size: 100%;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 3em;
+	color: seagreen;
+	letter-spacing: 0.2em;
+	margin: 5em 7em 0 1em;
+	background: rgba(255,255,255, .9);
+	padding: 0.5em;
+	text-shadow: .1em .1em .2em silver ;
+}
+
+
+ 
+#div2{
+	background-color: rgba(0,100,0, 1.0);
+	box-sizing: border-box;
+	padding: 2em 3em;
+	background-image: url(BUNNlogo.jpg);
+	background-size: 60px;
+	background-repeat: no-repeat;
+	color: white;
+	margin-top: 0.1em;
+}
+
+#impact{
+	margin-top: 15em;
+}
+
+.founders{
+	border-radius: 300px;
+	outline-color: green;
+	outline-style: solid;
+	outline-offset: 2.5px;
+	margin-right: 50px;
+	margin-left: 100px;
+}
+
+
+ul li{
+	list-style: none;
+	padding-left: .5em;
+}
+
+#partners{
+	background-image: 
+	url(web3bridge.jpg),
+	url(GIDA.png);
+	background-size: 200px, 350px;
+	background-repeat: no-repeat;
+	padding: 5em;
+}
