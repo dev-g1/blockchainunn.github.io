@@ -2,6 +2,7 @@ header{
 	background-image: url(logo2.png);
 	background-repeat: no-repeat;
 	background-size: 400px;
+	background-position: initial;
 	border-bottom: solid green;
 	padding-bottom: 3em;
 	margin-top: -1em;
@@ -9,18 +10,23 @@ header{
 
 #nav{
 	text-align: right;
-	margin-right: 2;	
+	margin-right: 1em;
+	margin-top: 1em;
+	font-size: 20px;	
 }
 
 a{
-	padding: 0 10;
+	padding: 0.5em;
 }
 body{
-	font-style:Georgia;
+	font-style: Arial;
 	line-height: 1.2em;
 	font-size: 1.5em;
 	text-align: justify;
 	padding: 2em;
+	background: linear-gradient(85deg, seagreen,white);
+	color: white;
+
 }
 
 #div0{
@@ -28,22 +34,24 @@ body{
 	border-style: ridge;
 	border-color: white;
 	padding-bottom: 15em;
+	padding-top: 25px;
 	margin-top: .5em;
-	background-image: url(BUNN.jpg);
+	background-image: url(BUNN-200.jpg);
 	background-size: 100%;
 	background-position: right;
 	background-repeat: no-repeat;
 }
 
 h1{
-	font-weight: bold;
-	font-size: 3em;
+	font-weight: bolder;
+	font-size: 40px;
 	color: seagreen;
-	letter-spacing: 0.2em;
-	margin: 5em 7em 0 1em;
-	background: rgba(255,255,255, .9);
+	letter-spacing: 20px;
+	margin: 2em 7em 0 1em;
+	background-color: rgba(255,255,255, 0.85);
 	padding: 0.5em;
 	text-shadow: .1em .1em .2em silver ;
+	font-family: "Bell MT";
 }
 
 
@@ -59,8 +67,11 @@ h1{
 	margin-top: 0.1em;
 }
 
+#Gallery img{
+	margin-top: 5px;
+}
 #impact{
-	margin-top: 15em;
+	background-color: green;
 }
 
 .founders{
@@ -69,20 +80,36 @@ h1{
 	outline-style: solid;
 	outline-offset: 2.5px;
 	margin-right: 50px;
-	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.class{
+	background-color: rgba(0,128,0, 0.9);
+}
+
+#founders2{
+	outline: solid;
+	outline-color: white;
+}
+
+#Gallery{
+	margin: 15px 7px 12px 4px;
+	outline: solid;
+	outline-color: seagreen;
+	outline-offset: 2px;
+
+}
+
+footer{
+	background-color: seagreen;
+	margin-top: 15px;
+}
+
+nav div{
+	text-align: center;
 }
 
 
-ul li{
-	list-style: none;
-	padding-left: .5em;
-}
-
-#partners{
-	background-image: 
-	url(web3bridge.jpg),
-	url(GIDA.png);
-	background-size: 200px, 350px;
-	background-repeat: no-repeat;
-	padding: 5em;
+a:focus {
+	color: mediumblue;
 }
