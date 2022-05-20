@@ -60,7 +60,7 @@ h1{
 	background-color: rgba(0,100,0, 1.0);
 	box-sizing: border-box;
 	padding: 2em 3em;
-	background-image: url(BUNNlogo.jpg);
+	/*background-image: url(BUNNlogo.jpg);*/
 	background-size: 60px;
 	background-repeat: no-repeat;
 	color: white;
@@ -81,6 +81,7 @@ h1{
 	outline-offset: 2.5px;
 	margin-right: 50px;
 	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 
 .class{
